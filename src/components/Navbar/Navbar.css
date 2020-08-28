@@ -1,0 +1,32 @@
+.navbar {
+  margin-top: 2em;
+  overflow: hidden;
+  padding: 2em;
+  width: 100%;
+}
+
+.active {
+  border-top: 3px solid var(--contrast);
+  padding: 1em 0 0;
+  font-weight: 800;
+}
+
+.link {
+  color: var(--text-color);
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 980px) {
+  .navbar {
+    padding: 20px 10px !important;
+  }
+  .navbar .link {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

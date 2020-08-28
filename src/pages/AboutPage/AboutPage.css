@@ -1,0 +1,16 @@
+.AboutPage h1 {
+  color: var(--contrast);
+  margin-bottom: 1em;
+}
+
+.AboutPage img {
+  margin: 2em;
+  width: 15em;
+  height: 15em;
+}
+
+.AboutPage h3 {
+  font-size: 1.5rem;
+  margin: 0 8em;
+  font-weight: 300;
+}

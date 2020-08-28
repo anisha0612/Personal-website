@@ -1,0 +1,13 @@
+.ContactPage {
+  /* position: absolute;
+  top: 50%;
+  bottom: 50%; */
+  margin-top: 2em;
+}
+.ContactPage .contact-icon {
+  margin-top: 2em;
+}
+
+.ContactPage .fa-id-card {
+  font-size: 5rem;
+}
