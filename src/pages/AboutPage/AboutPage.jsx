@@ -5,8 +5,8 @@ const AboutPage = () => {
   return (
     <div className="AboutPage">
       <img src="../../profile.png" alt="profile" />
-      <h1>HI THERE</h1>
-      <h3>
+      <h1 className="about-header">HI THERE</h1>
+      <h3 class="about-text">
         I am an aspiring Web Developer based in Wilmington,DE. I have been
         working on many personal projects. I find building web apps very
         interesting . I have a passion to learn new libraries, frameworks and

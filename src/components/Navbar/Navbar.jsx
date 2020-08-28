@@ -17,22 +17,6 @@ const Navbar = () => {
       <NavLink to="/contact" className="link" activeClassName="active">
         Contact
       </NavLink>
-      {/* <nav className="navbar">
-        <ul className="ul">
-          <li>
-            <a href={HomePage}>Home</a>
-          </li>
-          <li>
-            <a href={AboutPage}>About</a>
-          </li>
-          <li>
-            <a href={ProjectsPage}>Projects</a>
-          </li>
-          <li>
-            <a href={ContactPage}>Contact</a>
-          </li>
-        </ul>
-      </nav> */}
     </div>
   );
 };
