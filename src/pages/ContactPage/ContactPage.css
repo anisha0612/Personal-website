@@ -1,13 +1,26 @@
 .ContactPage {
-  /* position: absolute;
-  top: 50%;
-  bottom: 50%; */
-  margin-top: 2em;
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
 }
-.ContactPage .contact-icon {
-  margin-top: 2em;
+.ContactPage .fa-id-card {
+  font-size: 1.75em;
 }
 
-.ContactPage .fa-id-card {
-  font-size: 5rem;
+.ContactPage .contact-text {
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  margin: 2em 15rem 0;
+}
+
+.links {
+  margin-top: 5em;
+}
+
+.social-links {
+  color: var(--contrast);
+  padding: 0 2em;
+  font-size: 2rem;
 }
