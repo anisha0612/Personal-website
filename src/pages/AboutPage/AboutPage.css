@@ -5,13 +5,13 @@
 
 .AboutPage img {
   margin: 2em;
-  width: 15em;
-  height: 15em;
+  width: 10em;
+  height: 10em;
 }
 
 .AboutPage .about-text {
   font-size: 1.5rem;
-  margin: 2em 10em;
+  margin: 0 10em;
   font-weight: 300;
   letter-spacing: 0.1em;
 }

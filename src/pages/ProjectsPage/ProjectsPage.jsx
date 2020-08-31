@@ -1,12 +1,18 @@
 import React from "react";
+import Card from "../../components/Card/Card.jsx";
+import Projects from "../../components/Projects.js";
 import "./ProjectsPage.css";
 
-const ProjectsPage = () => {
-  return (
-    <div className="ProjectsPage">
-      <h1>Projects</h1>
-    </div>
-  );
-};
+class ProjectsPage extends React.Component {
+  render() {
+    return (
+      <div className="ProjectsPage">
+        {Projects.map((project) => (
+          <Card key={project.id} project={project} className="card-project" />
+        ))}
+      </div>
+    );
+  }
+}
 
 export default ProjectsPage;

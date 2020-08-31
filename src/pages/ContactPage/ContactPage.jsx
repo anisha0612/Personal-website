@@ -18,15 +18,22 @@ const ContactPage = () => {
         <a href="mailto:anisha.0612@gmail.com" className="social-links">
           <i class="fas fa-envelope"></i>
         </a>
-        <Link to="https://github.com/anisha0612" className="social-links">
-          <i class="fab fa-github"></i>
-        </Link>
-        <Link
-          to="https://www.linkedin.com/in/anisha-potteti-48b77872/"
+        <a
+          href="https://github.com/anisha0612"
           className="social-links"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anisha-potteti-48b77872/"
+          className="social-links"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fab fa-linkedin"></i>
-        </Link>
+        </a>
       </div>
     </div>
   );

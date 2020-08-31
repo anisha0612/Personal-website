@@ -1,0 +1,6 @@
+.ProjectsPage {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  column-gap: 25px;
+  row-gap: 10px;
+}
