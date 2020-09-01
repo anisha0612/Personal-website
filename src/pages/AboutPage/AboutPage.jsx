@@ -1,5 +1,7 @@
 import React from "react";
 import Profile from "../../assets/profile-img.png";
+import skills from "../../components/skills.js";
+import EachSkill from "../../components/EachSkill/EachSkill.jsx";
 import "./AboutPage.css";
 
 const AboutPage = () => {
@@ -15,6 +17,11 @@ const AboutPage = () => {
         applications is mine. I also believe that one should{" "}
         <strong>learn everyday</strong> to be better at what we do.
       </h3>
+      <div className="skills">
+        {skills.map((skill) => (
+          <EachSkill key={skill.id} {...skill} />
+        ))}
+      </div>
     </div>
   );
 };

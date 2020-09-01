@@ -15,3 +15,9 @@
   font-weight: 300;
   letter-spacing: 0.1em;
 }
+.AboutPage .skills {
+  margin: 2em 8em;
+  padding: 1em 6em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
