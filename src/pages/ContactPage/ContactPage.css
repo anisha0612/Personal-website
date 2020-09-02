@@ -24,3 +24,19 @@
   padding: 0 2em;
   font-size: 2rem;
 }
+@media only screen and (max-width: 900px) {
+  .ContactPage .contact-text {
+    margin: 2em 4em 0;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .ContactPage {
+    margin: 0 1em;
+  }
+  .social-links {
+    display: block;
+    padding: 1em 0;
+    font-size: 2.5rem;
+  }
+}

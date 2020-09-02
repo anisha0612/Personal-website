@@ -7,7 +7,14 @@ const EachSkill = (skill) => {
   return (
     <div className="EachSkill">
       <h4>{skill.name}</h4>
-      <ReactStars count={5} value={skill.value} size={15} color2={"#ffd700"} />
+      <ReactStars
+        count={5}
+        value={skill.value}
+        size={18}
+        color2={"#ffd700"}
+        edit={false}
+        className="stars"
+      />
     </div>
   );
 };

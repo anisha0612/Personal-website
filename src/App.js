@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 import params from "./components/particles.js";
-import Navbar from "./components/Navbar/Navbar.jsx";
+import Navigation from "./components/Navbar/Navbar.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import AboutPage from "./pages/AboutPage/AboutPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage/ProjectsPage.jsx";
@@ -22,7 +22,7 @@ function App() {
           height: "100%",
         }}
       >
-        <Navbar />
+        <Navigation />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />

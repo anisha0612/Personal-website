@@ -17,6 +17,12 @@ const AboutPage = () => {
         applications is mine. I also believe that one should{" "}
         <strong>learn everyday</strong> to be better at what we do.
       </h3>
+      <h2
+        className="center about-header"
+        style={{ paddingTop: "0.5em", fontSize: "2em" }}
+      >
+        SKILLS
+      </h2>
       <div className="skills">
         {skills.map((skill) => (
           <EachSkill key={skill.id} {...skill} />

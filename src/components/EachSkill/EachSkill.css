@@ -2,3 +2,34 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.EachSkill .stars {
+  padding-top: 1.5em;
+}
+@media only screen and (min-width: 456px) and (max-width: 900px) {
+  .EachSkill {
+    display: flex;
+    justify-content: center;
+  }
+  .EachSkill h4 {
+    font-size: 1.5rem;
+  }
+
+  .EachSkill .stars {
+    padding: 2em 0.5em 0;
+    /* display: block; */
+  }
+}
+@media only screen and (max-width: 455px) {
+  .EachSkill {
+    display: block;
+    margin-right: 1em;
+    padding-right: 1em;
+  }
+  .EachSkill h4 {
+    font-size: 1.5rem;
+  }
+  .EachSkill .stars {
+    font-size: 2rem;
+  }
+}

@@ -10,11 +10,11 @@ const ContactPage = () => {
       <h1>ARE YOU INTERESTED?</h1>
       <h3 className="contact-text">
         If you like my profile and are interested to talk to me,you can leave me
-        an e-mail. Check Out my Github and LinkedIn links below.
+        an e-mail. Check out my Github and LinkedIn links below.
       </h3>
 
       <div className="links">
-        <a href="mailto:anisha.0612@gmail.com" className="social-links">
+        <a href="mailto:anisha.potteti@gmail.com" className="social-links">
           <i class="fas fa-envelope"></i>
         </a>
         <a

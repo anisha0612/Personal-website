@@ -3,23 +3,24 @@ import Novella from "../assets/Project/Novella.png";
 import BlogWebsite from "../assets/Project/Blog-website.png";
 import Weather from "../assets/Project/Weather.png";
 import Dictionary from "../assets/Project/Urban Dictionary.png";
+import FaceDetection from "../assets/Project/Face detection.png";
 
 const Projects = [
   {
     id: 1,
-    imgSrc: "",
-    title: "Face Detection",
-    content:
-      "This a react.js webpage that detects a face in an image. Paste the URL of the image(image address) and press detect and the DeepAI API detects the face and a box is displayed around a face.",
-    url: "",
-  },
-  {
-    id: 2,
     imgSrc: Dictionary,
     title: "Urban Dictionary",
     content:
       "This is a Javascript web app for urban slang's based on Urban dictionary website using UrbanScrapper API .",
     url: "https://anisha0612.github.io/urban-dictionary/",
+  },
+  {
+    id: 2,
+    imgSrc: FaceDetection,
+    title: "Face Detection",
+    content:
+      "This a react.js webpage that detects a face in an image. Paste the URL of the image(image address) and press detect and the DeepAI API detects the face and a box is displayed around a face.",
+    url: "https://facedetection-api.netlify.app/",
   },
   {
     id: 3,

@@ -1,5 +1,5 @@
 .HomePage {
-  margin-top: 5em;
+  margin-top: 10em;
   top: 50%;
   bottom: 50%;
 }
@@ -15,5 +15,11 @@
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .HomePage {
+    margin: 0 1em;
   }
 }

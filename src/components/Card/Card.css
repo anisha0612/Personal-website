@@ -2,15 +2,13 @@
   position: relative;
   width: 100%;
   margin: 2em;
-
-  /* left: 25%; */
 }
 
 .image {
   opacity: 1;
   display: block;
   border-radius: 25px;
-  width: 100%;
+  width: 90%;
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
@@ -43,6 +41,42 @@
 .middle a {
   color: var(--contrast);
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-decoration: underline;
+}
+@media only screen and (max-width: 1100px) and (min-width: 801px) {
+  .middle h2 {
+    font-size: 1.1em;
+  }
+  .middle .content {
+    font-size: 0.9em;
+    padding: 0 0.5em;
+  }
+  .middle a {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .middle h2 {
+    font-size: 1.2em;
+  }
+  .middle .content {
+    display: none;
+  }
+  .middle a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .middle h2 {
+    font-size: 0.8em;
+  }
+  .middle .content {
+    display: none;
+  }
+  .middle a {
+    font-size: 0.5em;
+  }
 }
