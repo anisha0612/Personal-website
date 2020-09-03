@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "../../assets/profile-img.png";
 import skills from "../../components/skills.js";
 import EachSkill from "../../components/EachSkill/EachSkill.jsx";
+import { Link } from "react-router-dom";
 import "./AboutPage.css";
 
 const AboutPage = () => {
@@ -28,6 +29,9 @@ const AboutPage = () => {
           <EachSkill key={skill.id} {...skill} />
         ))}
       </div>
+      <Link to="/projects" className="button">
+        <i class="fas fa-laptop-code"></i> View My Work
+      </Link>
     </div>
   );
 };

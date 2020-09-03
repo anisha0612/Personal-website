@@ -12,6 +12,10 @@
   animation: glow 2500ms linear infinite 2000ms;
 }
 
+.HomePage i {
+  padding: 0.2em;
+}
+
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px;

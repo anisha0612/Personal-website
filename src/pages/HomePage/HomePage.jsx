@@ -21,7 +21,7 @@ const HomePage = () => {
         </h3>
 
         <Link to="/about" className="button">
-          Know More
+          <i class="fas fa-user-alt"></i> Know More
         </Link>
       </div>
     </div>
