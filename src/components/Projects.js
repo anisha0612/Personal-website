@@ -19,7 +19,7 @@ const Projects = [
     imgSrc: FaceDetection,
     title: "Face Detection",
     content:
-      "This a react.js webpage that detects a face in an image. Paste the URL of the image(image address) and press detect and the DeepAI API detects the face and a box is displayed around a face.",
+      "This a react.js webpage that detects a face in an image. Paste the URL of the image and press detect and a box is displayed around a face.",
     url: "https://facedetection-api.netlify.app/",
   },
   {
@@ -44,7 +44,7 @@ const Projects = [
     imgSrc: Weather,
     title: "Weather",
     content:
-      "This is React.js Web app using API and Material UI for React. This app displays the weather data for the current location and you can also search for the weather data for a city.",
+      "This is React.js Web app using API and Material UI for React. Check the weather for the current location or search for the weather data for a city.",
     url: "https://weather-openweather.netlify.app/",
   },
   {
