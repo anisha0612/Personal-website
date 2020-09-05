@@ -4,7 +4,7 @@
 }
 
 .ProjectsPage .projects {
-  margin-top: 4em;
+  margin: 4em 0 2em;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   column-gap: 25px;
@@ -13,14 +13,16 @@
 .ProjectsPage i {
   padding: 0.2em;
 }
+.ProjectsPage .button {
+  font-size: 1.5em;
+}
 
 @media only screen and (max-width: 800px) {
   .ProjectsPage h1 {
     font-size: 2.5em;
   }
   .ProjectsPage .projects {
-    margin-top: 2em;
-
+    margin-top: 2em 0;
     display: grid;
     grid-template-columns: 2fr;
     row-gap: 10px;

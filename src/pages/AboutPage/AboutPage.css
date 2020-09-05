@@ -31,19 +31,19 @@
 
 @media only screen and (max-width: 900px) {
   .AboutPage .about-text {
-    margin: 0 3em;
+    margin: 1em 3em;
   }
   .AboutPage .skills {
     display: grid;
     grid-template-columns: 1fr;
   }
 }
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 522px) {
   .AboutPage {
     margin: 0 0.5em;
   }
   .AboutPage .about-text {
-    margin: 2em 0.8em;
+    margin: 3em 0.8em;
   }
   .AboutPage h2 {
     display: none;
