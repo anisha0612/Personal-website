@@ -11,9 +11,9 @@
 
 .ContactPage .contact-text {
   font-weight: 300;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   margin: 2em 15rem 0;
-  font-size: 2.5em;
+  font-size: 1.75em;
 }
 
 .links {
@@ -28,8 +28,7 @@
 @media only screen and (max-width: 900px) {
   .ContactPage .contact-text {
     margin: 2em 4em 0;
-    font-size: 2em;
-    letter-spacing: 0.1em;
+    font-size: 1.5em;
   }
 }
 
