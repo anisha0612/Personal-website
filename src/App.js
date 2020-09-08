@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage/HomePage.jsx";
 import AboutPage from "./pages/AboutPage/AboutPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage/ProjectsPage.jsx";
 import ContactPage from "./pages/ContactPage/ContactPage.jsx";
+import NotFound from "./pages/NotFound.jsx";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" component={AboutPage} />
           <Route path="/projects" component={ProjectsPage} />
           <Route path="/contact" component={ContactPage} />
+          <Route component={NotFound} />
         </Switch>
       </div>
     </div>

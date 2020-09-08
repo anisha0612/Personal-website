@@ -34,3 +34,30 @@ h1 {
   transform: translateY(-0.25em);
   font-weight: 800;
 }
+
+.NotFound {
+  /* position: absolute;*/
+  /* top: 20%; */
+  /* left: 30%;  */
+}
+
+.NotFound h1 {
+  font-size: 10em;
+}
+.NotFound h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+}
+.NotFound p {
+  font-size: 1.2em;
+}
+
+.NotFound .link-home {
+  color: var(--contrast);
+  text-decoration: underline;
+}
+.NotFound .link-home:hover {
+  font-weight: 800;
+  cursor: pointer;
+}
