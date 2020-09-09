@@ -1,9 +1,9 @@
-import Cats from "../assets/Project/Cats-inc.png";
-import Novella from "../assets/Project/Novella.png";
-import BlogWebsite from "../assets/Project/Blog-website.png";
-import Weather from "../assets/Project/Weather.png";
-import Dictionary from "../assets/Project/Urban Dictionary.png";
-import FaceDetection from "../assets/Project/Face detection.png";
+import Cats from "../assets/Images/Project/Cats-inc.png";
+import Novella from "../assets/Images/Project/Novella.png";
+import BlogWebsite from "../assets/Images/Project/Blog-website.png";
+import Weather from "../assets/Images/Project/Weather.png";
+import Dictionary from "../assets/Images/Project/Urban Dictionary.png";
+import FaceDetection from "../assets/Images/Project/Face detection.png";
 
 const Projects = [
   {

@@ -9,10 +9,12 @@
     "bootstrap": "^4.5.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
     "react-particles-js": "^3.3.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-stars": "^2.2.5"
+    "react-stars": "^2.2.5",
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

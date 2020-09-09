@@ -7,7 +7,7 @@ const ContactPage = () => {
       <h1>
         <i className="fas fa-id-card"></i>
       </h1>
-      <h1>ARE YOU INTERESTED?</h1>
+      <h1>Are You Interested?</h1>
       <h3 className="contact-text">
         If you like my profile and are interested to talk to me,you can leave me
         an e-mail. Check out my Github and LinkedIn links below.

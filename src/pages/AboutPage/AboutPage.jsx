@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../../assets/profile-img.png";
+import Profile from "../../assets/Images/profile-img.png";
 import skills from "../../components/skills.js";
 import EachSkill from "../../components/EachSkill/EachSkill.jsx";
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <div className="AboutPage">
       <img src={Profile} alt="profile" />
-      <h1 className="about-header">HI THERE</h1>
+      <h1 className="about-header">Hi There</h1>
       <h3 class="about-text">
         I am a <strong>Web Developer</strong> based in Wilmington,DE. I am
         skillful at building Responsive Web applications. I am{" "}
@@ -22,7 +22,7 @@ const AboutPage = () => {
         className="center about-header"
         style={{ paddingTop: "0.5em", fontSize: "2em" }}
       >
-        SKILLS
+        Skills
       </h2>
       <div className="skills">
         {skills.map((skill) => (

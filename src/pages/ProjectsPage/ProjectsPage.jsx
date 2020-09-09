@@ -8,7 +8,7 @@ class ProjectsPage extends React.Component {
   render() {
     return (
       <div className="ProjectsPage">
-        <h1>PROJECTS</h1>
+        <h1>Projects</h1>
         <div className="projects">
           {Projects.map((project) => (
             <Card key={project.id} project={project} className="card-project" />

@@ -5,6 +5,9 @@
   left: 0;
   right: 0;
 }
+.ContactPage h1 {
+  font-size: 2.5em;
+}
 .ContactPage .fa-id-card {
   font-size: 1.75em;
 }
@@ -21,9 +24,12 @@
 }
 
 .social-links {
-  color: var(--contrast);
+  color: rgba(238, 69, 64, 0.8);
   padding: 0 2em;
   font-size: 2rem;
+}
+.social-links:hover {
+  color: var(--contrast);
 }
 @media only screen and (max-width: 900px) {
   .ContactPage .contact-text {
