@@ -17,7 +17,7 @@ const HomePage = () => {
             color: "var(--contrast)",
           }}
         >
-          An Aspiring Web Developer
+          A Web Developer
         </h3>
 
         <Link to="/about" className="button">
