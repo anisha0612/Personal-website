@@ -48,7 +48,7 @@ const Projects = [
     imgSrc: Weather,
     title: "Weather",
     content:
-      "This is React.js Web app using API and Material UI for React. Check the weather for the current location or search for the weather data for a city.",
+      "This is React.js Web app using API. Check the weather for the current location or search for the weather data for a city.",
     tools: "React.js, open weather map(API) and Material UI for React",
     url: "https://weather-openweather.netlify.app/",
   },
@@ -58,14 +58,14 @@ const Projects = [
     title: "Robot Friends",
     content:
       "This is a React.js app which search for robots entered in the search field. It is a Progressive Web App with Redux used as a state management library.",
-    tools: "React.js , Tachyons(styling) , APIs (Robot images)",
+    tools: "React.js , Tachyons(styling) , APIs (Robot images), redux",
     url: "https://anisha0612.github.io/RoboFriends/",
   },
   {
     id: 6,
     imgSrc: BlogWebsite,
     title: "Blog Website",
-    content: "Blogging website using node,express.js, ejs and mongoDB",
+    content: "Blogging website to store public blogs.",
     tools: "Node.js,Express.js, ejs and MongoDB",
     url: "https://obscure-gorge-23398.herokuapp.com/",
   },
