@@ -32,6 +32,15 @@ const Projects = [
   //     "This is a React.js web app using APIs to fetch data to render a card for each cat with name and email. A search box is used to get all the cats with the name entered.",
   //   url: "https://cats-inc.netlify.app/",
   // },
+  {
+    id: 7,
+    imgSrc: RobotFriends,
+    title: "Robot Friends",
+    content:
+      "This is a React.js app which search for robots entered in the search field. It is a Progressive Web App with Redux used as a state management library.",
+    tools: "React.js , Tachyons(styling) , APIs (Robot images), redux",
+    url: "https://anisha0612.github.io/RoboFriends/",
+  },
 
   {
     id: 4,
@@ -52,15 +61,7 @@ const Projects = [
     tools: "React.js, open weather map(API) and Material UI for React",
     url: "https://weather-openweather.netlify.app/",
   },
-  {
-    id: 7,
-    imgSrc: RobotFriends,
-    title: "Robot Friends",
-    content:
-      "This is a React.js app which search for robots entered in the search field. It is a Progressive Web App with Redux used as a state management library.",
-    tools: "React.js , Tachyons(styling) , APIs (Robot images), redux",
-    url: "https://anisha0612.github.io/RoboFriends/",
-  },
+
   {
     id: 6,
     imgSrc: BlogWebsite,
