@@ -8,6 +8,7 @@ const Card = ({ project }) => {
       <div class="middle">
         <h2>{project.title}</h2>
         <p class="content">{project.content}</p>
+        <p class="content">{project.tools}</p>
         <a href={project.url} target="_blank" rel="noopener noreferrer">
           Visit the Website
         </a>
