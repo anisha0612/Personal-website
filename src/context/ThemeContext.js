@@ -1,27 +1,27 @@
-import React, { createContext } from "react";
+// import React, { createContext } from "react";
 
-export const ThemeContext = createContext();
+// export const ThemeContext = createContext();
 
-export class ThemeProvider extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isDarkMode: true,
-    };
-  }
-  toggleTheme = () => {
-    this.setState({ isDarkMode: !this.state.isDarkMode });
-  };
-  render() {
-    return (
-      <ThemeContext.Provider
-        value={{
-          ...this.state,
-          toggleTheme: this.toggleTheme,
-        }}
-      >
-        {this.props.children}
-      </ThemeContext.Provider>
-    );
-  }
-}
+// export class ThemeProvider extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       isDarkMode: true,
+//     };
+//   }
+//   toggleTheme = () => {
+//     this.setState({ isDarkMode: !this.state.isDarkMode });
+//   };
+//   render() {
+//     return (
+//       <ThemeContext.Provider
+//         value={{
+//           ...this.state,
+//           toggleTheme: this.toggleTheme,
+//         }}
+//       >
+//         {this.props.children}
+//       </ThemeContext.Provider>
+//     );
+//   }
+// }

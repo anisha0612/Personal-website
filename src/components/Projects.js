@@ -1,4 +1,4 @@
-import Cats from "../assets/Images/Project/Cats-inc.png";
+// import Cats from "../assets/Images/Project/Cats-inc.png";
 import Novella from "../assets/Images/Project/Novella.png";
 import BlogWebsite from "../assets/Images/Project/Blog-website.png";
 import Weather from "../assets/Images/Project/Weather.png";
