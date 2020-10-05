@@ -4,7 +4,7 @@ import BlogWebsite from "../assets/Images/Project/Blog-website.png";
 import Weather from "../assets/Images/Project/Weather.png";
 import Dictionary from "../assets/Images/Project/Urban Dictionary.png";
 import FaceDetection from "../assets/Images/Project/Face detection.png";
-
+import RobotFriends from "../assets/Images/Project/Robot Friends.png";
 const Projects = [
   {
     id: 1,
@@ -22,14 +22,14 @@ const Projects = [
       "This a react.js webpage that detects a face in an image. Paste the URL of the image and press detect and a box is displayed around a face.",
     url: "https://facedetection-api.netlify.app/",
   },
-  {
-    id: 3,
-    imgSrc: Cats,
-    title: "Cats Inc.",
-    content:
-      "This is a React.js web app using APIs to fetch data to render a card for each cat with name and email. A search box is used to get all the cats with the name entered.",
-    url: "https://cats-inc.netlify.app/",
-  },
+  // {
+  //   id: 3,
+  //   imgSrc: Cats,
+  //   title: "Cats Inc.",
+  //   content:
+  //     "This is a React.js web app using APIs to fetch data to render a card for each cat with name and email. A search box is used to get all the cats with the name entered.",
+  //   url: "https://cats-inc.netlify.app/",
+  // },
 
   {
     id: 4,
@@ -46,6 +46,14 @@ const Projects = [
     content:
       "This is React.js Web app using API and Material UI for React. Check the weather for the current location or search for the weather data for a city.",
     url: "https://weather-openweather.netlify.app/",
+  },
+  {
+    id: 7,
+    imgSrc: RobotFriends,
+    title: "Robot Friends",
+    content:
+      "This is a React.js app which search for robots entered in the search field. It is a Progressive Web App with Redux used as a state management library.",
+    url: "https://anisha0612.github.io/RoboFriends/",
   },
   {
     id: 6,

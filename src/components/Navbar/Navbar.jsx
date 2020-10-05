@@ -1,8 +1,11 @@
 import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import { ThemeContext } from "../../context/ThemeContext.js";
+import "./Toggle.css";
 
 class Navigation extends React.Component {
+  static contextType = ThemeContext;
   constructor(props) {
     super();
     this.state = {
@@ -19,8 +22,13 @@ class Navigation extends React.Component {
   };
 
   render() {
+    const { isDarkMode, toggleTheme } = this.context;
     return (
       <div>
+        <div onChange={toggleTheme}>
+          <input type="checkbox" id="toggle" className="checkbox" />
+          <label htmlFor="toggle" className="switch"></label>
+        </div>
         <div
           className={`overlay ${
             this.state.overlayActive
