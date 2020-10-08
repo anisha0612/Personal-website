@@ -3,12 +3,12 @@ import "./Card.css";
 
 const Card = ({ project }) => {
   return (
-    <div class="container">
+    <div className="container">
       <img src={project.imgSrc} alt="project" className="image" />
-      <div class="middle">
+      <div className="middle">
         <h2>{project.title}</h2>
-        <p class="content">{project.content}</p>
-        <p class="tools">{project.tools}</p>
+        <p className="content">{project.content}</p>
+        <p className="tools">{project.tools}</p>
         <a href={project.url} target="_blank" rel="noopener noreferrer">
           Visit the Website
         </a>

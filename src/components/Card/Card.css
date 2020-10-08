@@ -48,13 +48,26 @@
   font-size: 1.2em;
   text-decoration: underline;
 }
-@media only screen and (max-width: 1100px) and (min-width: 861px) {
+
+@media only screen and (min-width: 1050px) {
+  .middle .content {
+    font-size: 0.9em;
+  }
+  .middle .tools {
+    display: block;
+    font-size: 0.8em;
+  }
+  .middle a {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 1049px) and (min-width: 861px) {
   .middle h2 {
     font-size: 1.1em;
   }
   .middle .content {
     font-size: 0.9em;
-    padding: 0 0.5em;
   }
 
   .middle a {

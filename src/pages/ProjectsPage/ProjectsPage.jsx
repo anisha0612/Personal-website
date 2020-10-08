@@ -15,7 +15,7 @@ class ProjectsPage extends React.Component {
           ))}
         </div>
         <Link to="/contact" className="button">
-          <i class="fas fa-phone-square-alt"></i> Contact Me
+          <i className="fas fa-phone-square-alt"></i> Contact Me
         </Link>
       </div>
     );
