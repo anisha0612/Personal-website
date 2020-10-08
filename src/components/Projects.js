@@ -5,6 +5,7 @@ import Weather from "../assets/Images/Project/Weather.png";
 import Dictionary from "../assets/Images/Project/Urban Dictionary.png";
 import FaceDetection from "../assets/Images/Project/Face detection.png";
 import RobotFriends from "../assets/Images/Project/Robot Friends.png";
+import UpBeat from "../assets/Images/Project/UpBeat.png";
 const Projects = [
   {
     id: 1,
@@ -15,15 +16,7 @@ const Projects = [
     tools: "Vanilla JavaScript, Bulma CSS , HTML, AJAX (axios fetch)",
     url: "https://anisha0612.github.io/urban-dictionary/",
   },
-  {
-    id: 2,
-    imgSrc: FaceDetection,
-    title: "Face Detection",
-    content:
-      "This a react.js webpage that detects a face in an image. Paste the URL of the image and press detect and a box is displayed around a face.",
-    tools: "React.js, Deep AI (API call - Image detection)",
-    url: "https://facedetection-api.netlify.app/",
-  },
+
   // {
   //   id: 3,
   //   imgSrc: Cats,
@@ -32,6 +25,15 @@ const Projects = [
   //     "This is a React.js web app using APIs to fetch data to render a card for each cat with name and email. A search box is used to get all the cats with the name entered.",
   //   url: "https://cats-inc.netlify.app/",
   // },
+  {
+    id: 8,
+    imgSrc: UpBeat,
+    title: "Up Beat",
+    content:
+      "This is music player that plays tracks from a playlist in the chart using the Deezer API(music).",
+    tools: "Vanilla JavaScript, HTML, AJAX (axios fetch)",
+    url: "https://anisha0612.github.io/UpBeat/",
+  },
   {
     id: 7,
     imgSrc: RobotFriends,
@@ -61,7 +63,15 @@ const Projects = [
     tools: "React.js, open weather map(API) and Material UI for React",
     url: "https://weather-openweather.netlify.app/",
   },
-
+  {
+    id: 2,
+    imgSrc: FaceDetection,
+    title: "Face Detection",
+    content:
+      "This a react.js webpage that detects a face in an image. Paste the URL of the image and press detect and a box is displayed around a face.",
+    tools: "React.js, Deep AI (API call - Image detection)",
+    url: "https://facedetection-api.netlify.app/",
+  },
   {
     id: 6,
     imgSrc: BlogWebsite,
