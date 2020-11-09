@@ -15,7 +15,7 @@ const ContactPage = () => {
 
       <div className="links">
         <a href="mailto:anisha.potteti@gmail.com" className="social-links">
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
         </a>
         <a
           href="https://github.com/anisha0612"
@@ -23,7 +23,7 @@ const ContactPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/anisha-potteti-48b77872/"
@@ -31,7 +31,7 @@ const ContactPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
       </div>
     </div>

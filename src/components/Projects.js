@@ -13,7 +13,7 @@ const Projects = [
     title: "Urban Dictionary",
     content:
       "This is a Javascript web app for urban slang's based on Urban dictionary website using UrbanScrapper API .",
-    tools: "Vanilla JavaScript, Bulma CSS , HTML, AJAX (axios fetch)",
+    tools: "Vanilla JavaScript, Bulma CSS , HTML, AJAX (axios fetch) ",
     url: "https://anisha0612.github.io/urban-dictionary/",
   },
 

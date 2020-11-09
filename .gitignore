@@ -11,6 +11,10 @@
 # production
 /build
 
+#AboutPage 
+src/pages/AboutPage/About.jsx
+
+
 # misc
 .DS_Store
 .env.local
