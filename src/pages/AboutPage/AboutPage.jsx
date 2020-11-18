@@ -9,8 +9,8 @@ const About = () => {
       <img src={Profile} alt="profile" />
       <h1 className="about-header">Hi There</h1>
       <h3 className="about-text">
-        I am a <strong>Web Developer</strong> based in Wilmington,DE. I am
-        skillful at building Responsive Web applications. I am{" "}
+        I am a <strong>Web Developer</strong> based in Delaware. I am skillful
+        at building Responsive Web applications. I am{" "}
         <strong>passionate</strong> to learn and bring ideas to life . I believe
         that one should <strong>pursue their passion</strong> and building Web
         applications is mine. I also believe that one should{" "}
