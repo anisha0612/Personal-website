@@ -31,7 +31,7 @@ const Projects = [
     title: "Up Beat",
     content:
       "This is music player that plays tracks from a playlist in the chart using the Deezer API(music).",
-    tools: "Vanilla JavaScript, HTML, AJAX (axios fetch)",
+    tools: "Vanilla JavaScript, HTML, AJAX (axios fetch), TypeScript",
     url: "https://anisha0612.github.io/UpBeat/",
   },
   {
