@@ -3,7 +3,7 @@ import Novella from "../assets/Images/Project/Novella.png";
 import BlogWebsite from "../assets/Images/Project/Blog-website.png";
 import Weather from "../assets/Images/Project/Weather.png";
 import Dictionary from "../assets/Images/Project/Urban Dictionary.png";
-import FaceDetection from "../assets/Images/Project/Face detection.png";
+import FaceDetection from "..//assets/Images/Project/face-detection.png";
 import RobotFriends from "../assets/Images/Project/Robot Friends.png";
 import UpBeat from "../assets/Images/Project/UpBeat.png";
 const Projects = [
