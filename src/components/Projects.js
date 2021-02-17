@@ -69,8 +69,8 @@ const Projects = [
     title: "Face Detection",
     content:
       "This a react.js webpage that detects a face in an image. Paste the URL of the image and press detect and a box is displayed around a face.",
-    tools: "React.js, Deep AI (API call - Image detection)",
-    url: "https://facedetection-api.netlify.app/",
+    tools: "React.js, clarifai API , Node.js, Express.js and PostgreSQl",
+    url: "https://face-detection-full-stack.herokuapp.com/",
   },
   {
     id: 6,
