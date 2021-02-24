@@ -8,32 +8,15 @@ import RobotFriends from "../assets/Images/Project/Robot Friends.png";
 import UpBeat from "../assets/Images/Project/UpBeat.png";
 const Projects = [
   {
-    id: 1,
-    imgSrc: Dictionary,
-    title: "Urban Dictionary",
+    id: 2,
+    imgSrc: FaceDetection,
+    title: "Face Detection",
     content:
-      "This is a Javascript web app for urban slang's based on Urban dictionary website using UrbanScrapper API .",
-    tools: "Vanilla JavaScript, Bulma CSS , HTML, AJAX (axios fetch) ",
-    url: "https://anisha0612.github.io/urban-dictionary/",
+      "This a react.js webpage that detects a face in an image. Paste the URL of the image and press detect and a box is displayed around a face.",
+    tools: "React.js, clarifai API , Node.js, Express.js and PostgreSQl",
+    url: "https://face-detection-full-stack.herokuapp.com/",
   },
 
-  // {
-  //   id: 3,
-  //   imgSrc: Cats,
-  //   title: "Cats Inc.",
-  //   content:
-  //     "This is a React.js web app using APIs to fetch data to render a card for each cat with name and email. A search box is used to get all the cats with the name entered.",
-  //   url: "https://cats-inc.netlify.app/",
-  // },
-  {
-    id: 8,
-    imgSrc: UpBeat,
-    title: "Up Beat",
-    content:
-      "This is music player that plays tracks from a playlist in the chart using the Deezer API(music).",
-    tools: "Vanilla JavaScript, HTML, AJAX (axios fetch), TypeScript",
-    url: "https://anisha0612.github.io/UpBeat/",
-  },
   {
     id: 7,
     imgSrc: RobotFriends,
@@ -64,14 +47,33 @@ const Projects = [
     url: "https://weather-openweather.netlify.app/",
   },
   {
-    id: 2,
-    imgSrc: FaceDetection,
-    title: "Face Detection",
+    id: 1,
+    imgSrc: Dictionary,
+    title: "Urban Dictionary",
     content:
-      "This a react.js webpage that detects a face in an image. Paste the URL of the image and press detect and a box is displayed around a face.",
-    tools: "React.js, clarifai API , Node.js, Express.js and PostgreSQl",
-    url: "https://face-detection-full-stack.herokuapp.com/",
+      "This is a Javascript web app for urban slang's based on Urban dictionary website using UrbanScrapper API .",
+    tools: "Vanilla JavaScript, Bulma CSS , HTML, AJAX (axios fetch) ",
+    url: "https://anisha0612.github.io/urban-dictionary/",
   },
+
+  // {
+  //   id: 3,
+  //   imgSrc: Cats,
+  //   title: "Cats Inc.",
+  //   content:
+  //     "This is a React.js web app using APIs to fetch data to render a card for each cat with name and email. A search box is used to get all the cats with the name entered.",
+  //   url: "https://cats-inc.netlify.app/",
+  // },
+  {
+    id: 8,
+    imgSrc: UpBeat,
+    title: "Up Beat",
+    content:
+      "This is music player that plays tracks from a playlist in the chart using the Deezer API(music).",
+    tools: "Vanilla JavaScript, HTML, AJAX (axios fetch), TypeScript",
+    url: "https://anisha0612.github.io/UpBeat/",
+  },
+
   {
     id: 6,
     imgSrc: BlogWebsite,
