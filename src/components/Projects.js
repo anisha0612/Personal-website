@@ -2,7 +2,7 @@
 import Novella from "../assets/Images/Project/Novella.png";
 import BlogWebsite from "../assets/Images/Project/Blog-website.png";
 import Weather from "../assets/Images/Project/Weather.png";
-import Dictionary from "../assets/Images/Project/Urban Dictionary.png";
+import Dictionary from "../assets/Images/Project/Medico.png";
 import FaceDetection from "..//assets/Images/Project/face-detection.png";
 import RobotFriends from "../assets/Images/Project/Robot Friends.png";
 import UpBeat from "../assets/Images/Project/UpBeat.png";
@@ -49,11 +49,11 @@ const Projects = [
   {
     id: 1,
     imgSrc: Dictionary,
-    title: "Urban Dictionary",
+    title: "Medico",
     content:
-      "This is a Javascript web app for urban slang's based on Urban dictionary website using UrbanScrapper API .",
+      "This is a Javascript search web app to get the definition for medical terms/phrases using Merriam Webster API .",
     tools: "Vanilla JavaScript, Bulma CSS , HTML, AJAX (axios fetch) ",
-    url: "https://anisha0612.github.io/urban-dictionary/",
+    url: "https://medical-dictionary.netlify.app/",
   },
 
   // {
