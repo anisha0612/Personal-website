@@ -12,7 +12,7 @@ const About = () => {
         What makes me unique is I am self-driven. I have taught myself to build
         and design websites. I am always learning, trying to build something
         from scratch, researching the tools and technologies I use. I am
-        passionate about creating beautiful, performant applications with good
+        passionate about creating beautiful,responsive,scalable.and performant applications with good
         user experiences.
       </h3>
       <h2

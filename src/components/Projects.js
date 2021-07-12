@@ -6,6 +6,7 @@ import Dictionary from "../assets/Images/Project/Medico.png";
 import FaceDetection from "..//assets/Images/Project/face-detection.png";
 import RobotFriends from "../assets/Images/Project/Robot Friends.png";
 import UpBeat from "../assets/Images/Project/UpBeat.png";
+import HackerNews from "../assets/Images/Project/Hacker News.png"
 const Projects = [
   {
     id: 2,
@@ -55,6 +56,15 @@ const Projects = [
     tools: "Vanilla JavaScript, Bulma CSS , HTML, AJAX (axios fetch) ",
     url: "https://medical-dictionary.netlify.app/",
   },
+  {
+    id: 10,
+    imgSrc: HackerNews,
+    title: "Hacker News Feed",
+    content:
+      "This app fetches the top stories from the Hacker News API and displays them with the comments made by users on those stories. This web app uses Infinite Scrolling to display the Stories fetched from the API",
+    tools: "React Hooks, Context API, local storage, Hacker News API, React Bootstrap",
+    url: "https://codesandbox.io/s/gracious-pasteur-r649h",
+  },
 
   // {
   //   id: 3,
@@ -64,15 +74,15 @@ const Projects = [
   //     "This is a React.js web app using APIs to fetch data to render a card for each cat with name and email. A search box is used to get all the cats with the name entered.",
   //   url: "https://cats-inc.netlify.app/",
   // },
-  {
-    id: 8,
-    imgSrc: UpBeat,
-    title: "Up Beat",
-    content:
-      "This is music player that plays tracks from a playlist in the chart using the Deezer API(music).",
-    tools: "Vanilla JavaScript, HTML, AJAX (axios fetch), TypeScript",
-    url: "https://anisha0612.github.io/UpBeat/",
-  },
+  // {
+  //   id: 8,
+  //   imgSrc: UpBeat,
+  //   title: "Up Beat",
+  //   content:
+  //     "This is music player that plays tracks from a playlist in the chart using the Deezer API(music).",
+  //   tools: "Vanilla JavaScript, HTML, AJAX (axios fetch), TypeScript",
+  //   url: "https://anisha0612.github.io/UpBeat/",
+  // },
 
   {
     id: 6,
