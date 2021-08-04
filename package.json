@@ -13,7 +13,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "react-stars": "^2.2.5",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "tsparticles": "^1.33.2"
   },
   "scripts": {
     "start": "react-scripts start",
