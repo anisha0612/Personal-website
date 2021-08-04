@@ -5,8 +5,8 @@ import Weather from "../assets/Images/Project/Weather.png";
 import Dictionary from "../assets/Images/Project/Medico.png";
 import FaceDetection from "..//assets/Images/Project/face-detection.png";
 import RobotFriends from "../assets/Images/Project/Robot Friends.png";
-import UpBeat from "../assets/Images/Project/UpBeat.png";
-import HackerNews from "../assets/Images/Project/Hacker News.png"
+// import UpBeat from "../assets/Images/Project/UpBeat.png";
+import HackerNews from "../assets/Images/Project/Hacker News.png";
 const Projects = [
   {
     id: 2,
@@ -62,7 +62,8 @@ const Projects = [
     title: "Hacker News Feed",
     content:
       "This app fetches the top stories from the Hacker News API and displays them with the comments made by users on those stories. This web app uses Infinite Scrolling to display the Stories fetched from the API",
-    tools: "React Hooks, Context API, local storage, Hacker News API, React Bootstrap",
+    tools:
+      "React Hooks, Context API, local storage, Hacker News API, React Bootstrap",
     url: "https://codesandbox.io/s/gracious-pasteur-r649h",
   },
 
