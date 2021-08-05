@@ -1,7 +1,8 @@
 .AboutPage {
    position: absolute;
    top: 0;
-   padding-bottom: 2em;
+   padding: 10em 0;
+
 
 }
 .AboutPage .about-header {

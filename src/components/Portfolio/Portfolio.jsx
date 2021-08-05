@@ -9,12 +9,12 @@ import ContactPage from "../../pages/ContactPage/ContactPage.jsx";
 import NotFound from "../../pages/NotFound.jsx";
 import "./Portfolio.css";
 import { Route, Switch } from "react-router-dom";
-import TropicalDay from "../../assets/Images/Tropical/Tropical-day/Tropical-day.gif";
-import TropicalNight from "../../assets/Images/Tropical/Tropical-night/Tropical-night.gif";
-import TropicalSunset from "../../assets/Images/Tropical/Tropical-sunset/Tropical-sunset.gif";
+import CityDay from "../../assets/Images/City/City-day/City-day.gif";
+import CityNight from "../../assets/Images/City/City-night/City-night.gif";
+import CitySunset from "../../assets/Images/City/City-sunset/City-sunset.gif";
 
 const Portfolio = () => {
-  const [background, setBackground] = useState(TropicalSunset);
+  const [background, setBackground] = useState(CitySunset);
   const [backgroundColor, setBackgroundColor] = useState("#292a2c");
   const [textColor, setTextColor] = useState("#FDFCE6");
   const [hours, setHours] = useState(6);
@@ -26,20 +26,20 @@ const Portfolio = () => {
       setHours(current.getHours());
       switch (true) {
         case hours >= 18 && hours <= 20:
-          setBackground(TropicalSunset);
-          setBackgroundColor("#292a2c");
+          setBackground(CitySunset);
+          setBackgroundColor("#D4AA78");
           setTextColor("#FDFCE6");
           break;
         case hours >= 6 && hours < 18:
           setBackgroundColor("#98D2EE");
-          setTextColor("#292a2c");
-          setBackground(TropicalDay);
+          setTextColor("#193353");
+          setBackground(CityDay);
 
           break;
         default:
-          setBackgroundColor("#292a2c");
+          setBackgroundColor("#193353");
           setTextColor("#FDFCE6");
-          setBackground(TropicalNight);
+          setBackground(CityNight);
           break;
       }
     };
@@ -88,7 +88,15 @@ const Portfolio = () => {
               />
             )}
           />
-          <Route path='/contact' component={ContactPage} />
+          <Route
+            path='/contact'
+            component={() => (
+              <ContactPage
+                backgroundColor={backgroundColor}
+                textColor={textColor}
+              />
+            )}
+          />
           <Route component={NotFound} />
         </Switch>
       </div>
