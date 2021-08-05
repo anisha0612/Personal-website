@@ -1,5 +1,8 @@
 .AboutPage {
-  margin-top: 5em;
+   position: absolute;
+   top: 0;
+   padding-bottom: 2em;
+
 }
 .AboutPage .about-header {
   color: var(--contrast);

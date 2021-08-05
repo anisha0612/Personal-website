@@ -3,17 +3,19 @@ import Profile from "../../assets/Images/profile-img.png";
 import { Link } from "react-router-dom";
 import "./AboutPage.css";
 
-const About = () => {
+const About = ({ backgroundColor, textColor }) => {
   return (
-    <div className='AboutPage'>
+    <div
+      className='AboutPage'
+      style={{ backgroundColor: `${backgroundColor}`, color: `${textColor}` }}>
       <img src={Profile} alt='profile' />
       <h1 className='about-header'>Hi There</h1>
       <h3 className='about-text'>
         What makes me unique is I am self-driven. I have taught myself to build
         and design websites. I am always learning, trying to build something
         from scratch, researching the tools and technologies I use. I am
-        passionate about creating beautiful,responsive,scalable.and performant applications with good
-        user experiences.
+        passionate about creating beautiful,responsive,scalable.and performant
+        applications with good user experiences.
       </h3>
       <h2
         className='center about-header'

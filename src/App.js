@@ -1,14 +1,11 @@
 import React from "react";
 import Portfolio from "./components/Portfolio/Portfolio.jsx";
-// import { ThemeProvider } from "./context/ThemeContext";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      {/* <ThemeProvider> */}
+    <div className='App'>
       <Portfolio />
-      {/* </ThemeProvider> */}
     </div>
   );
 }
